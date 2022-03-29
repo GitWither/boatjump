@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "boatjump",
+  "version": "${version}",
+  "name": "BoatJump",
+  "description": "A small mod that allows you to go up uneven terrain in a boat",
+  "authors": [
+    "Daniel K."
+  ],
+  "contact": {
+    "email": "wither.tweets@gmail.com",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/boatjump",
+    "sources": "https://github.com/GitWither/boatjump",
+    "issues": "https://github.com/GitWither/boatjump/issues",
+    "discord": "https://discord.gg/WtdP245E8Q"
+  },
+  "license": "MIT",
+  "icon": "assets/boatjump/icon.png",
+  "environment": "*",
+  "mixins": [
+    "boatjump.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.18.*",
+    "java": "17"
+  }
+}
