@@ -17,11 +17,20 @@
   "license": "MIT",
   "icon": "assets/boatjump/icon.png",
   "environment": "*",
+  "entrypoints": {
+    "server": [
+      "daniel.boatjump.BoatJump"
+    ],
+    "client": [
+      "daniel.boatjump.BoatJump"
+    ]
+  },
   "mixins": [
     "boatjump.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.12.6",
+    "fabric": "*",
     "minecraft": "1.18.*",
     "java": "17"
   }
