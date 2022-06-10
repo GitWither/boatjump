@@ -28,10 +28,17 @@
   "mixins": [
     "boatjump.mixins.json"
   ],
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/b79VpMbkey",
+        "modmenu.twitter": "https://twitter.com/_Daniel_K_"
+      }
+    }
+  },
   "depends": {
     "fabricloader": ">=0.12.6",
     "fabric": "*",
-    "minecraft": "1.18.*",
-    "java": "17"
+    "minecraft": "1.19"
   }
 }
